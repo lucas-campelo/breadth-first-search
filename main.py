@@ -1,6 +1,8 @@
-from sys import maxsize
-from graph import Node
-from algorithm import bfs
+from sys import maxsize, path
+path.append('./modules')
+
+from modules.graph import Node
+from modules.algorithm import bfs
 
 g = [
     Node(label='A' ,dist=maxsize, adj=[1, 3]),
@@ -15,6 +17,5 @@ g = [
 
 if __name__ == '__main__':
     tree = bfs(graph=g, start=g[0])
-    # print(tree)
     for node in tree:
         print(node)
