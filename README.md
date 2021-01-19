@@ -37,7 +37,7 @@ The execution walks in the following steps:
 </div>
 
 <div style="text-align: justify;">
-Here's a old school gif to help you understand:
+Here's an old school gif to help you understand:
 </div>
 <br>
 
