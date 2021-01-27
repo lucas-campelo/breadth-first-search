@@ -1,6 +1,6 @@
-from typing import List
-from graph import Node
+from modules import Node
 from queue import Queue
+from typing import List
 
 def bfs(graph: List[Node], start: Node):
     start.color = 'g'

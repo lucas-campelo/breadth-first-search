@@ -1,8 +1,5 @@
-from sys import maxsize, path
-path.append('./modules')
-
-from modules.graph import Node
-from modules.algorithm import bfs
+from modules import Node, bfs
+from sys import maxsize
 
 g = [
     Node(label='A' ,dist=maxsize, adj=[1, 3]),
